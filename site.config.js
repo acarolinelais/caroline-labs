@@ -60,7 +60,7 @@ const CONFIG = {
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
-  },,
+  },
   cusdis: {
     enable: false,
     config: {
