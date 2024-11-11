@@ -3,30 +3,30 @@ const CONFIG = {
   profile: {
     name: "Rae Labs",
     image: "/icon.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "IT engineer",
+    role: "IT Engineer",
     bio: "Cybersecurity, Mobile Security, Application Security.",
-    email: "f0ntes@proton.me",
+    email: "f0nte4@proton.me",
     linkedin: "xssrae",
     github: "xssrae",
     instagram: "r0quel",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+    name: `MobileSec Journey`,
+      href: "https://github.com/xssrae/mobilesec-jorney",
     },
   ],
   // blog setting (required)
   blog: {
     title: "Rae Labs",
     description: "bem vindo(a) ao Rae Labs!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://rae-labs.vercel.app/",
+  since: 2024, // If leave this empty, current year will be used.
+  lang: "pt-BR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
@@ -55,7 +55,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
@@ -63,7 +63,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
