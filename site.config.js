@@ -1,23 +1,23 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Rae Labs",
+    name: "Caroline Log",
     image: "/icon.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "IT Engineer",
-    bio: "Cybersecurity, Mobile Security, Application Security.",
-    linkedin: "xssrae",
-    github: "xssrae",
+    role: "Software Developer",
+    bio: "AI, Software Development, Design Thinking.",
+    linkedin: "carolinelais",
+    github: "acarolinelais",
   },
   projects: [
     {
-    name: `MobileSec Journey`,
-      href: "https://github.com/xssrae/mobilesec-jorney",
+    name: `Registration Form`,
+      href: "https://github.com/acarolinelais/registration-form",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "Rae Labs",
-    description: "bem vindo(a) ao Rae Labs!",
+    title: "Caroline Log",
+    description: "bem vindo(a) ao Caroline Log!",
     scheme: "light", // 'light' | 'dark' | 'system'
   },
 
