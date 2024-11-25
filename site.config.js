@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Caroline Log",
+    name: "carolinelog",
     image: "/icon.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Software Developer",
     bio: "AI, Software Development, Design Thinking.",
@@ -16,7 +16,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Caroline Log",
+    title: "carolinelog",
     description: "bem vindo(a) ao Caroline Log!",
     scheme: "light", // 'light' | 'dark' | 'system'
   },
