@@ -22,7 +22,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://rae-labs.vercel.app/",
+  link: "https://caroline-log.vercel.app/",
   since: 2024, // If leave this empty, current year will be used.
   lang: "pt-BR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "", // The link to generate OG image, don't end with a slash
@@ -30,7 +30,7 @@ const CONFIG = {
   // notion configuration (required)
   notionConfig: {
     //pageId: process.env.NOTION_PAGE_ID,
-    pageId: "13b4f4c3dbcf80f4b133ed446907862f",
+    pageId: "1491bfb5d24580a2b2d7ef64607d8182",
   },
 
   // plugin configuration (optional)
