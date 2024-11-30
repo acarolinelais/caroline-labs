@@ -10,8 +10,8 @@ const CONFIG = {
   },
   projects: [
     {
-    name: `Registration Form`,
-      href: "https://github.com/acarolinelais/registration-form",
+    name: `Sistema de Análise de Dados`,
+      href: "https://github.com/acarolinelais/Analise-de-Dados",
     },
   ],
   // blog setting (required)
